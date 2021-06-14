@@ -1,0 +1,32 @@
+[
+{
+  "code" : 1,
+  "name" : "Nom producte",
+  "description"  : "Description product",
+  "price" : 23.45,
+  "created" : new Date(),
+  "published" : new Date(),
+  "properties": [{"code" :  1, "name" :  "propietat1"}],
+   "comments" : [
+     {"description" :  "Comment",
+      "published" :  new Date(),
+       "user" : {"code" :  12, "firstName" :  "Pep", "lastName" :  "Guardiola" , "email" :  "proca@gmail.com"}
+     }
+   ]
+},
+{
+  "code" : 2,
+  "name" : "Nom producte 2",
+  "description"  : "Description product",
+  "price" : 23.452,
+  "created" : new Date(),
+  "published" : new Date(),
+  "properties": [{"code" :  1, "name" :  "propietat1"}],
+  "comments" : [
+    {"description" :  "Comment",
+      "published" :  new Date(),
+      "user" : {"code" :  12, "firstName" :  "Josep", "lastName" :  "Guardiola" , "email" :  "proca@gmail.com"}
+    }
+  ]
+}
+]
